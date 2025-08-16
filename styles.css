@@ -1,0 +1,61 @@
+
+
+h1,h2 {
+    text-align: center;
+color: #2c3e50;
+}
+
+.form-container {
+    max-width: 700px;
+    margin: auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+input, button {
+    margin: 5px 0;
+    padding: 8px;
+border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+.plan {
+    background: #eef;
+    margin: 12px auto;
+    padding: 12px;
+    border-radius: 8px;
+    max-width: 700px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.flowchart {
+ margin-top: 8px;
+    padding: 8px;
+    background: #d9fdd3;
+    border-left: 4px solid green;
+    line-height: 1.5;
+}
+
+.delete-btn {
+    background: rgb(154, 153, 153);
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    margin-top: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}

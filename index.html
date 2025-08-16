@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Countdown & Study Planner</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 20px;
+    color: #333;
+}
+    </style>
+</head>
+<body>
+    <h1>📚 Exam Countdown & Study Planner</h1>
+
+    <div class="form-container">
+        <label>Exam Name :</label>
+        <input type="text" placeholder="Subject Name" id="name"> <br><br>
+
+        <label>Exam Date :</label>
+        <input type="date" id="date"> <br><br>
+
+        <label>Enter Topics &Time :</label>
+        <div id="topics">
+            <input type="text" placeholder="Enter the Topic" class="topic">
+            <label>Time (hours):</label>
+            <input type="number" class="time"  placeholder="Hours"> <br>
+        </div>
+        <button id="AddNewTopic" onclick="addTopic()">➕ Add New Topic</button>
+        <br><br>
+
+        <button onclick="saveData()">💾 Save Exam Plan</button>
+        <button onclick="showData()">📑 Show Previous Plans</button>
+    </div>
+
+    <h2>📌 Study Plans</h2>
+    <div id="studyplans"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
