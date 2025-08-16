@@ -1,5 +1,6 @@
 📚 Exam Countdown & Study Planner
-Live Link :
+
+Live Link :https://somanadhgunti.github.io/Study-Planner/
 📖 Project Description
 
 The Exam Countdown & Study Planner is a simple web-based tool designed to help students effectively plan and track their study schedules.
